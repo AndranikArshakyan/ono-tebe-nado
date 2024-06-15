@@ -67,7 +67,7 @@
 }
 
 .cover::after,
-.lots__card-list-item::after {
+.card::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -163,8 +163,6 @@
 }
 
 .lots__card-list-item {
-  position: relative;
-  z-index: 1;
   width: 334px;
   min-height: 563px;
 }
@@ -183,6 +181,8 @@
 }
 
 .card {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
