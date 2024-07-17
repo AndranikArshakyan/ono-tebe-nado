@@ -1,7 +1,7 @@
 .header {
   display: grid;
   grid-template-columns: 1fr 150px 1fr;
-  padding: 90px 24px 93px;
+  padding: 90px 24px 97px;
   font-size: 18px;
   background-color: #fff;
 }
@@ -199,7 +199,7 @@
 }
 
 .card_type_film {
-  background-image: url(../images/card-lot-01.jpg);
+  background-image: url(/images/card-lot-01.jpg);
 }
 
 .card_type_book {
